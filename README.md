@@ -15,7 +15,7 @@
 
 ## **Intro**
 
-Official Code for [Steam: Sparse Transformer and Explicit Attention Module for Multimodal Object Detection](https://github.com/lanxx314/steam)
+Official Code for [Steam: Sparse Transformer and Explicit Attention Module for Multimodal Object Detection](https://ieeexplore.ieee.org/document/11006394)
 
 The code will be released after our paper is accepted !
 
@@ -123,6 +123,8 @@ Evaluate the performance on the validation set:
 python val.py --save-json --name 'val'
 ```
 
+To train and validate our method on LLVIP and aligned-FLIR, adapt our module to the [CFT](https://github.com/DocF/multispectral-object-detection).
+
 ## **Acknowledgment**
 
-Our code mainly improves on [ultralytics](https://github.com/ultralytics) and [yolo_obb](https://github.com/CVHub520/yolov5_obb.git) . Many thanks to the authors!
+Our code mainly improves on [ultralytics](https://github.com/ultralytics), [yolo_obb](https://github.com/CVHub520/yolov5_obb.git), and [CFT](https://github.com/DocF/multispectral-object-detection). Many thanks to the authors !
