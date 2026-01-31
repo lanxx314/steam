@@ -29,7 +29,21 @@ The illustration of our proposed multimodal object detection framework is shown 
   <img src="imgs\img.png" alt="overview" width="98%">
 </p>
 
+## **Citation**
+If you find our research beneficial to your work, please cite our paper.
+```
+@ARTICLE{11006394,
+  author={Lan, Xiaoxiong and Liu, Shenghao and Zhang, Sude and Zhang, Zhiyong},
+  journal={IEEE Sensors Journal}, 
+  title={Steam: Sparse Transformer and Explicit Attention Module for Multimodal Object Detection}, 
+  year={2025},
+  volume={25},
+  number={13},
+  pages={24873-24885},
+  keywords={Object detection;Feature extraction;Sensors;Transformers;Thermal sensors;Detectors;Attention mechanisms;Data mining;Accuracy;Redundancy;Explicit attention;modal conflict;object detection;redundancy;sensor data fusion;sparse transformer},
+  doi={10.1109/JSEN.2025.3569092}}
 
+```
 
 ## **Getting Started**
 
