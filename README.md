@@ -4,7 +4,7 @@
     <strong>Xiaoxiong Lan</strong><sup> 1</sup>&emsp;
     <strong>Shenghao Liu</strong><sup> 1</sup>&emsp;
     <strong>Sude Zhang</strong><sup> 1</sup>&emsp;
-    <strong>Zhiyong Zhang</strong><sup> 1</sup>&emsp;
+    <strong>Zhiyong Zhang</strong><sup> *1</sup>&emsp;
 </div>
 
 
@@ -131,7 +131,7 @@ python test.py --save-json --name 'test'
 Evaluate the performance on the validation set:
 
 ```bash
-python val.py --save-json --name 'val'
+python valtest.py --save-json --name 'val'
 ```
 
 To train and validate our method on LLVIP and aligned-FLIR, adapt our module to the [CFT](https://github.com/DocF/multispectral-object-detection).
